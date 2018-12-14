@@ -3,7 +3,7 @@ spring:
     name: configserver
   cloud:
     zookeeper:
-      connect-string: localhost:2181,zoo1:2181,zoo2:2181,zoo3:2181
+      connect-string: zoo1:2181,zoo2:2181,zoo3:2181
       config:
         enabled: true
         root: config
