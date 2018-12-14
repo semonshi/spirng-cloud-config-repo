@@ -10,4 +10,4 @@ spring:
         zkservice1:
           path: /zkservice1
           loadBalancerType: ROUND_ROBIN
-          required: true
+          required: false
